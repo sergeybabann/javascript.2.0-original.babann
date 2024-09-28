@@ -19,11 +19,13 @@ document.querySelector('.header').innerHTML = 15
 document.querySelector('#one').innerHTML = 777 // есть #
 document.getElementById('one').innerHTML = 888 // нет #
 
+
+
 let b
 let a = document.querySelector('#one') // внутрь а получил параграф
 let c 
 c = document.querySelector('.header')
-a.innerHTML = 9999 // new ошибка!!!
+a.innerHTML = 9999 // new - ошибка!!! new - зарезервированное слово. Его нельзя использовать при именовании переменной
 c.innerHTML = 6666 // 
 
 
