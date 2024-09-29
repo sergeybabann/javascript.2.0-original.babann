@@ -1,0 +1,12 @@
+.text-center {
+  text-align: center;
+}
+
+.out {
+  color: red;
+}
+
+.out-assign {
+  background: green;
+  padding: 20px;
+}
